@@ -1,0 +1,42 @@
+windowcontrols {
+  border-spacing: 6px;
+}
+
+windowcontrols button:not(.suggested-action):not(.destructive-action) {
+  min-height: 20px;
+  min-width: 20px;
+  padding: 0;
+  margin: 0 4px;
+  border-radius: 9999px;
+}
+
+windowcontrols button.minimize:hover:not(.suggested-action):not(.destructive-action), windowcontrols button.minimize:active:not(.suggested-action):not(.destructive-action), windowcontrols button.maximize:hover:not(.suggested-action):not(.destructive-action), windowcontrols button.maximize:active:not(.suggested-action):not(.destructive-action), windowcontrols button.close:hover:not(.suggested-action):not(.destructive-action), windowcontrols button.close:active:not(.suggested-action):not(.destructive-action) {
+  color: white;
+}
+
+windowcontrols button.minimize:not(.suggested-action):not(.destructive-action) {
+  background-color: #fdbe04;
+  color: transparent;
+}
+
+windowcontrols button.minimize:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #fece43;
+}
+
+windowcontrols button.maximize:not(.suggested-action):not(.destructive-action) {
+  background-color: #38c76a;
+  color: transparent;
+}
+
+windowcontrols button.maximize:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #6ad58f;
+}
+
+windowcontrols button.close:not(.suggested-action):not(.destructive-action) {
+  background-color: #fd5f51;
+  color: transparent;
+}
+
+windowcontrols button.close:active:not(.suggested-action):not(.destructive-action) {
+  background-color: #fe877d;
+}
