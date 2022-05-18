@@ -10,19 +10,19 @@ clock-show-weekday=true
 document-font-name='Noto Sans 11'
 font-antialiasing='rgba'
 font-name='Roboto 11'
-gtk-theme='adw-gtk'
+gtk-theme='adw-lightway'
 icon-theme='Papirus'
 monospace-font-name='Roboto Mono 11'
 
 [org.gnome.desktop.sound]
 event-sounds=true
 input-feedback-sounds=true
-theme-name='Yaru'
+theme-name='Lightway'
 
 [org.gnome.desktop.wm.preferences]
 button-layout='close,minimize,maximize:appmenu'
 titlebar-uses-system-font=false
-titlebar-font='Google Sans Medium 11'
+titlebar-font='Roboto Medium 11'
 
 [org.gnome.login-screen]
 logo='/usr/share/pixmaps/lightway-logo-gdm.png'
@@ -40,19 +40,7 @@ display-type=1
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Polari.desktop', 'org.gnome.Evolution.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Todo.desktop', 'org.gnome.gedit.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Lollypop.desktop', 'shotwell.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop']
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'ding@rastersoft.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com']
-
-[org.gnome.shell.extensions.dash-to-dock]
-show-apps-at-top=true
-multi-monitor=false
-intellihide-mode='MAXIMIZED_WINDOWS'
-dock-position='BOTTOM'
-dash-max-icon-size=48
-custom-theme-shrink=true
-
-[org.gnome.shell.extensions.ding]
-icon-size='small'
-show-trash=false
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com']
 
 [org.gnome.Terminal.Legacy.Profile]
 use-system-font=false
